@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  /* background-image: url(MountainBackground.jpg); */
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-container {
+  width: 400px;
+  /*text-align: center;*/
+  overflow: hidden;
+  border-radius: 8px;
+  margin-top: 200px;
+}
+
+.header {
+  height: 200px;
+  background: #2c3a47;
+}
+.output {
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+  background: white;
+  color: red;
+  font-size: 13px;
+}
+.output div {
+  height: 100px;
+  width: 200px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+#days {
+  color: black;
+  font-size: 30px;
+}
+#hours {
+  color: black;
+  font-size: 30px;
+}
+#minutes {
+  color: black;
+  font-size: 30px;
+}
+#seconds {
+  color: black;
+  font-size: 30px;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+#button {
+  display: inline-block;
+  background: #2c3a47;
+  padding: 12px 50px;
+  color: #e66767;
+  border: 2px solid #e66767;
+  border-radius: 6px;
+  transition: 0.3s linear;
+  font-size: 18px;
+}
+
+#button:hover {
+  background: #e66767;
+  color: #f2f2f2;
+}
+
+.birthday-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+p {
+  color: #f2f2f2;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#myText {
+  padding: 4px;
+  font-size: 16px;
+}
